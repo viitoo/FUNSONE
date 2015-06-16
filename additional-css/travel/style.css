@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo { padding:9px 0 4px; }
+.top-bar { background-color:#f8f8f8; }
+.location-bg { background:url(../../images/travel/travel-search-bg1.jpg) repeat; }
+.parallax-bg { background-image:url(http://www.placehold.it/1920x1344&text=Parallax); }
+
+blockquote { padding:10px 5%; }
+
+.icon-content-bg { background-image:url(http://www.placehold.it/1920x800&text=Parallax); }
+.icon-content-bg img { -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s; }
+.icon-content-bg img:hover { opacity:0.85; }
+
+#footer .footer-widgets-wrapper.type4 .widget-title { margin-bottom:30px; }
+#footer .widget-title .small-line { margin:5px 0 0; width:40px; background-color:#6f8295 !important; }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:13px 0 7px !important; }
+}

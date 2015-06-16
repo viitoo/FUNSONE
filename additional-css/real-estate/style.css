@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { color:#868686; }
+
+.parallax-content-bg { background:url(http://www.placehold.it/1920x1000&text=Parallax) 50% 0 repeat-y fixed; }
+
+.parallax-bg { background-image:url(http://www.placehold.it/1920x483&text=Parallax); }
+
+.bg-overlay-white:after { background-color:rgba( 248, 248, 248, 0.85); } 
+
+.product-details .dt-sc-button.type2 { background:inherit; border:1px solid #eaeaea; color:#333; }
+.product-details .dt-sc-button.type2:hover { background-color:#77be32; border-color:#21c2f8; color:#fff; }
+
+.dt-sc-reservation-form { background:url(../../images/real-estate/form-bg.jpg) repeat; }
+blockquote { padding:10px 2% 10px 4%; }
+
+.parallax-content-bg:after { background-color:rgba(119, 190, 50, 0.9) !important; }
+.parallax-content-bg .dt-sc-button.large { background-color:#fff; color:#333; }
+.parallax-content-bg .dt-sc-button.large:hover { color:#fff; }
+.parallax-content-bg .dt-sc-button.large span { background-color:#eee; color:#333; }
+
+.dt-sc-reservation-form { background-color:rgba( 240, 240, 240, 0.9); }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:21px 0 17px !important; }
+}

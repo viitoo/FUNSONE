@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body, .border-title.type2 span, .dt-sc-toggle-frame-set.type2 h5.dt-sc-toggle-accordion:before, .dt-sc-toggle-frame-set.type2 h5.dt-sc-toggle-accordion { background-color:#0f161e; }
+
+.header, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container { background-color:#0c0c0c; }
+
+.grey { background-color:#2c3e50; }
+
+#logo { padding:7px 0 0; }
+
+.loader-wrapper, #loader-image { background:#000; }
+.fullwidth-testimonial { background-image:url(http://www.placehold.it/1920x483&text=Parallax); }
+.bg-overlay:after { background-color:rgba(0, 0, 0, 0.65); }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:12px 0 5px !important; }
+} 

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body, .portfolio-detail, .portfolio-detail .views, .copyright { background-color:#f4e3c8; }
+
+#logo { padding:12px 0 6px 0; }
+
+.top-bar.type5, .intro-text.type2, .grey, h5.dt-sc-toggle, h5.dt-sc-toggle-accordion, .top-register a, .newsletter-container .fa { background-color:#e9bf56; }
+
+.header, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container { background-color:#e77a24; }
+
+#main-menu > ul > li.current_page_item > a, .top-right, #main-menu ul li.menu-item-simple-parent ul li, .menu-item-widget-area-container .widget ul li, .megamenu-child-container ul.sub-menu > li > ul li a, .dt-sc-social-icons li a, .dt-sc-social-icons li:first-child a, .title-sep::before, .portfolio-detail, .portfolio-detail .views, .products .product-container, .top-register a, .events .event-meta p:first-child, .grey { border-color:#d77122; }
+
+.dt-sc-team .image img { box-shadow:0 0 0 5px #d77122; }
+
+#main-menu > ul > li.current_page_item > a, #main-menu > ul > li > a:hover, #main-menu ul li.menu-item-simple-parent ul li a:hover, #main-menu ul li.menu-item-simple-parent ul li.current_page_item > a, .megamenu-child-container ul > li > a:hover, .megamenu-child-container ul > li > ul li a:hover, #main-menu > ul > li:hover > a { color:rgba( 255, 255, 255, 1) !important; }
+#main-menu > ul > li > a, #main-menu ul li.menu-item-simple-parent ul li a, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, .menu-item-widget-area-container .widget ul li a, .megamenu-child-container ul.sub-menu > li > ul li a { color:rgba( 255, 255, 255, 0.7); }
+
+.megamenu-child-container > ul.sub-menu > li > p { color:rgba( 255, 255, 255, 0.5); }
+
+body, .top-bar.type5 .top-social-icons li a, .footer-links li a, .copyright p a { color:#222; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .top-register a { color:#e77a24; }
+
+.top-register a { background-color:#e64d3d !important; color:#fff; }
+.top-register a:hover { background-color:#e9bf56 !important; color:#222; }
+
+.dt-sc-button:before { background:#2c3e50 !important; }
+
+.products .product-container { border-style:dashed; }
+#footer .footer-widgets-wrapper.type3 { background:#fff; }
+.newsletter-form > input { border-color:#d5d5d5; }
+
+.parallax-content-bg { background-image:url(http://www.placehold.it/1920x750&text=Parallax); background-position:50% 34px;; }
+
+.fullwidth-testimonial { background-image:url(http://www.placehold.it/1920x483&text=Parallax); }
+
+.parallax-content-bg2 { background-image:url(http://www.placehold.it/1920x1280&text=Parallax); }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:16px 0 12px !important; }
+ 
+ }
